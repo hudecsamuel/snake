@@ -1,0 +1,15 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \"*\""
+  },
+  "author": "hudecsamuel@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "typescript": "^2.3.4"
+  }
+}
