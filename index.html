@@ -1,0 +1,55 @@
+<html class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <title>Simple implementation of snake game</title>
+
+    <style class="cp-pen-styles">
+        #game-view {
+            width: auto;
+            max-height: calc(100vh - 70px);
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            background-color: teal;
+            color: white;
+            border: 2px solid #006666;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        button:focus {
+            outline: none;
+        }
+    </style>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <canvas id="game-view" height="400" width="400"></canvas>
+    </div>
+    <div class="container">
+        <div id="score-counter">
+            Score: <span id="score"></span>
+        </div>
+    </div>
+    <!--<div class="container">
+        <div class="controls">
+            <button id="clockwise">Turn clockwise <br>(c)</button>
+            <button id="counter-clockwise">Turn counter clockwise <br>(v)</button>
+        </div>
+    </div>-->
+</body>
+
+</html>
